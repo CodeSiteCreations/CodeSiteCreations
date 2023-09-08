@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatti</title>
+    <link rel="stylesheet" href="stylecontatti.css">
+</head>
+<body>
+    <header>
+        <h1>Contatti</h1>
+        <p>Contattaci per ulteriori informazioni</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="servizi.html">Servizi</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contatti.html">Contatti</a></li>
+            <li><a href="novità.html">Novità</a></li>
+        </ul>
+    </nav>
+
+    <section class="contact">
+        <h2>Come Ci Puoi Contattare</h2>
+        <p>Non esitare a contattarci per informazioni, richieste di preventivo o qualsiasi altra domanda. Siamo qui per aiutarti!</p>
+        <ul>
+           <p>Email: <a href="mailto:info@example.com"></a></p>
+        </ul>
+    </section>
+
+    <section class="contact-form">
+        <h2>Invia un messaggio e ti risponderemo al più presto!</h2>
+        <form action="process.php" method="post">
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="messaggio">Messaggio:</label>
+                <textarea id="messaggio" name="messaggio" rows="4" required></textarea>
+            </div>
+    
+            <div class="form-group">
+                <button type="submit">Invia</button>
+            </div>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Contatti. Tutti i diritti riservati.</p>
+    </footer>
+</body>
+</html>
